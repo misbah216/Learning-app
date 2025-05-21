@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Educational Learning Games</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>learn with Vidyagram 🎓</header>
+
+  <main>
+    <section id="category-section" class="category-selection">
+      <h2>Select a Category</h2>
+    </section>
+
+    <section id="game-section" style="display:none;"><br>
+
+      <div class="question-container">
+        <div class="question-num" id="question-number"></div>
+        <div class="question-text" id="question-text"></div>
+        <div class="options" id="options-container"></div>
+        <button class="submit-btn" id="submit-btn" disabled>Submit Answer</button>
+        <div class="feedback-emoji" id="feedback-emoji" aria-live="polite" aria-atomic="true"></div>
+      </div>
+    </section>
+
+    <section id="score-section" style="display:none;">
+      <div class="score-summary">
+        <h2>Your Score</h2>
+        <p id="score-text"></p>
+        <button class="restart-btn" id="restart-btn">Play Again</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2024 Learning Games App - Have fun learning! 🎉
+  </footer>
+
+  <script src="Script.js"></script>
+</body>
+</html>
