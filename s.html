@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Story Reader</title>
+  <link rel="stylesheet" href="s.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📚 Story Reader</h1>
+    
+    <div class="tabs">
+      <button onclick="showCategory('english')">English Stories</button>
+      <button onclick="showCategory('hindi')">Hindi Stories</button>
+    </div>
+
+    <div id="story-list" class="story-list"></div>
+
+    <div id="story-content" class="story-content">
+      <h2 id="story-title"></h2>
+      <pre id="story-text"></pre>
+    </div>
+  </div>
+
+  <script src="s.js"></script>
+</body>
+</html>
